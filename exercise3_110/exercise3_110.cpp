@@ -53,7 +53,7 @@ public :
 
     float Keliling() {
         int s = getX();
-        return 4; s;
+        return 4 * s;
     }
 };
 
@@ -62,7 +62,11 @@ int main() {
     lingkaran.input();
     cout << "Luas Lingkaran: " << lingkaran.Luas() << endl;
     cout << "Keliling Lingkaran: " << lingkaran.Keliling() << endl;
+    
+    cout << " " << endl;
     cout << "----------------------------" << endl;
+    cout << " " << endl;
+
     Bujursangkar bujursangkar;
     bujursangkar.input();
     cout << "Luas Bujursangkar: " << bujursangkar.Luas() << endl;
@@ -73,10 +77,3 @@ int main() {
 }
 
 
-
-
-
-
-
-
-// catatan ekasu
